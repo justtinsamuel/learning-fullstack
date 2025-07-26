@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Americano",
+    "price": 5.99,
+    "beans": "Arabica",
+    "is_available": true
+  },
+  {
+    "id": 2,
+    "name": "Espresso",
+    "price": 6.99,
+    "beans": "Robusta",
+    "is_available": false
+  },
+  {
+    "id": 3,
+    "name": "Latte",
+    "price": 7.99,
+    "beans": "Liberica",
+    "is_available": true
+  },
+  {
+    "id": 4,
+    "name": "Frappe",
+    "price": 8.99,
+    "beans": "Excelsa",
+    "is_available": false
+  },
+  {
+    "id": 5,
+    "name": "Cappuccino",
+    "price": 9.99,
+    "beans": "Arabica",
+    "is_available": true
+  },
+  {
+    "id": 6,
+    "name": "Frappuchino",
+    "price": 10.55,
+    "beans": "Robusta",
+    "is_available": true
+  }
+]

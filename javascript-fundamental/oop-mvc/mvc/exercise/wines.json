@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Moscato 2010",
+    "year": 2010,
+    "type": "Red",
+    "createdAt": "2021-01-10"
+  },
+  {
+    "id": 2,
+    "name": "Red Caliber",
+    "year": 2015,
+    "type": "Red",
+    "createdAt": "2023-07-06T14:11:55.311Z"
+  },
+  {
+    "id": 3,
+    "name": "Green Tea",
+    "year": 2013,
+    "type": "White",
+    "createdAt": "2023-07-08T03:26:49.600Z"
+  },
+  {
+    "id": 4,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:39.801Z"
+  },
+  {
+    "id": 5,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:40.602Z"
+  },
+  {
+    "id": 6,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:40.901Z"
+  },
+  {
+    "id": 7,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:41.125Z"
+  },
+  {
+    "id": 8,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:41.344Z"
+  },
+  {
+    "id": 9,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:41.542Z"
+  },
+  {
+    "id": 10,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:41.758Z"
+  },
+  {
+    "id": 11,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:41.981Z"
+  },
+  {
+    "id": 12,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:42.201Z"
+  },
+  {
+    "id": 13,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:42.441Z"
+  },
+  {
+    "id": 14,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:42.659Z"
+  },
+  {
+    "id": 15,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:42.899Z"
+  },
+  {
+    "id": 16,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:43.150Z"
+  },
+  {
+    "id": 17,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:43.399Z"
+  },
+  {
+    "id": 18,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:43.694Z"
+  },
+  {
+    "id": 19,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:43.915Z"
+  },
+  {
+    "id": 20,
+    "name": "Grenache",
+    "year": 2000,
+    "type": "Red",
+    "createdAt": "2025-07-20T08:27:44.113Z"
+  }
+]

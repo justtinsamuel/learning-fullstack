@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "boxName": "Snappy Garden",
+    "turtles": [
+      {
+        "id": 1,
+        "name": "Common Snapping Turtle",
+        "species": "SnappingTurtle",
+        "price": 3500000,
+        "patterns": [
+          "brown",
+          "blade"
+        ],
+        "size": 10,
+        "weight": 500
+      },
+      {
+        "id": 2,
+        "name": "Common Snapping Turtle",
+        "species": "SnappingTurtle",
+        "price": 1500000,
+        "patterns": [
+          "brown",
+          "blade"
+        ],
+        "size": 5,
+        "weight": 350
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "boxName": "Land and Sea",
+    "turtles": [
+      {
+        "id": 1,
+        "name": "Sulcata",
+        "species": "Tortoise",
+        "price": 1500000,
+        "patterns": [
+          "brown"
+        ],
+        "size": 5,
+        "weight": 750
+      },
+      {
+        "id": 2,
+        "name": "Red Eyed Slider Turtle",
+        "species": "Terrapins",
+        "price": 500000,
+        "patterns": [
+          "red",
+          "blade"
+        ],
+        "size": 3,
+        "weight": 200
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "boxName": "The Brand New Box",
+    "turtles": [
+      {
+        "id": 1,
+        "name": "Tiny",
+        "species": "Tortoise",
+        "price": 2000000,
+        "patterns": [
+          "yellow",
+          "dots"
+        ],
+        "size": 8,
+        "weight": 300
+      }
+    ]
+  }
+]
