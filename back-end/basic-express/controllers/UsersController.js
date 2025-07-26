@@ -6,12 +6,14 @@ class UserController {
   }
 
   static add(req, res) {
+    console.log(+req.params.id);
     res.json({
       message: "User add page",
     });
   }
 
   static delete(req, res) {
+    console.log(+req.params.id);
     res.json({
       message: "User delete page",
     });

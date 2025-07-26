@@ -12,12 +12,16 @@ class ItemController {
   }
 
   static delete(req, res) {
+    console.log(+req.params.id);
+
     res.json({
       message: "Item delete page",
     });
   }
 
   static edit(req, res) {
+    console.log(+req.params.id);
+    
     res.json({
       message: "Item Edit page",
     });
