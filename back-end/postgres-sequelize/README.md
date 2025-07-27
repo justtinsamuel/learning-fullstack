@@ -40,11 +40,9 @@ buat database:
 migrate db:
     npm run migrate-db
 
-create new model untuk di migrate:
+create new table model untuk di migrate:
     npx sequelize-cli model:generate --name User --attributes email:string,password:string,username:string,image:string
-
     npx sequelize-cli model:generate --name Item --attributes name:string,category:string,price:integer,stock:integer,image:string
-
-
-
-
+    npx sequelize-cli model:generate --name Type --attributes name:string
+    npx sequelize-cli model:generate --name Profile --attributes fullname:string,role:string,address:string
+    npx sequelize-cli model:generate --name Location --attributes city:string,region:string,country:string    
