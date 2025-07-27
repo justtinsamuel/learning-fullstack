@@ -4,6 +4,9 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js",
+    "create-db": "sequelize-cli db:create",
+    "migrate-db": "sequelize-cli db:migrate",
+    "database": "npm run create-db && npm run migrate-db",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
