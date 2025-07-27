@@ -46,3 +46,14 @@ create new table model untuk di migrate:
     npx sequelize-cli model:generate --name Type --attributes name:string
     npx sequelize-cli model:generate --name Profile --attributes fullname:string,role:string,address:string
     npx sequelize-cli model:generate --name Location --attributes city:string,region:string,country:string    
+
+Ujicoba CRUD, untuk item dahulu, cek file index controller, itemControllers, routes item, dan app.js.
+di postman untuk tes API, coba input post raw data di body:
+    {
+        "name": "",
+        "category": "",
+        "price": "",
+        "stock": "",
+        "image": ""
+
+    }
