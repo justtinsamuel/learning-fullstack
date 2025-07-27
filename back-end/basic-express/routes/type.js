@@ -1,5 +1,5 @@
 const TypeController = require("../controllers/TypesController")
-const typeRouter = require("express").Router();
+const typeRouter = require("express").Router()  ;
 
 typeRouter.get("/", TypeController.getType);
 typeRouter.get("/add", TypeController.add);
