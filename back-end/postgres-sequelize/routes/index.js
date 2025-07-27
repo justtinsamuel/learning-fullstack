@@ -12,9 +12,9 @@ const itemRouter = require('./item');
 // const typeRouter = require('./type');
 
 router.use(`/${base}/items`, itemRouter);
-// router.use('/user', userRouter);
-// router.use('/location', locationRouter);
-// router.use('/profile', profileRouter);
-// router.use('/type', typeRouter);
+// router.use(`/${base}/users`, userRouter);
+// router.use(`/${base}/locations`, locationRouter);
+// router.use(`/${base}/profiles`, profileRouter);
+// router.use(`/${base}/types`, typeRouter);
 
 module.exports = router;
