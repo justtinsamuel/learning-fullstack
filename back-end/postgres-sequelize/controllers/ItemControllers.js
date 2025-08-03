@@ -1,10 +1,12 @@
-const { Item } = require("../models");
+const { Item, User, Type } = require("../models");
 const { Op } = require("sequelize");
 
 class ItemController {
   static async getItems(req, res) {
     try {
-      let items = await Item.findAll(); //findAll dapet dari sequelize
+      let items = await Item.findAll({
+        include: [{ model: User }, { model: Type }],
+      }); //findAll dapet dari sequelize
       res.status(200).json(items);
     } catch (err) {
       res.status(500).json(err); // 500 = server error
@@ -16,6 +18,7 @@ class ItemController {
       const id = +req.params.id;
       let result = await Item.findOne({
         where: { id },
+        include: [{ model: User }, { model: Type }],
       });
       res.status(200).json(result);
     } catch (err) {
@@ -25,15 +28,27 @@ class ItemController {
 
   static async add(req, res) {
     try {
-      const { name, category, price, stock, image } = req.body;
+      const { name, category, price, stock, image, UserId, TypeId } = req.body;
       let result = await Item.create({
         name,
         category,
         price,
         stock,
         image,
+        UserId,
+        TypeId,
       });
       res.status(200).json(result);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  }
+
+  static async addMany(req, res) {
+    try {
+      const items = req.body; // ini harus array
+      const result = await Item.bulkCreate(items);
+      res.status(201).json(result);
     } catch (err) {
       res.status(500).json(err);
     }
